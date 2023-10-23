@@ -27,3 +27,8 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+Response:
+I believe that invariance in this program is that no matter what value is presented in the array, it must always be equal to (n-1)+(n-2).
+This is because, if at any point the current value is not equal to that, everything breaks. It is the sole part of the fibonnaci sequence
+that allows it to continue.
