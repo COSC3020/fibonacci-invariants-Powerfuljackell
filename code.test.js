@@ -15,7 +15,7 @@ function fibTest(n) {
 
 const test =
     jsc.forall(jsc.nat(30), function(n) {
-        console.log(n);
+        //console.log(n);
         return JSON.stringify(fib(n)) ==
             JSON.stringify(fibTest(n));
     });
